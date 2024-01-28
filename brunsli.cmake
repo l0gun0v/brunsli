@@ -23,6 +23,7 @@ set(BRUNSLI_DEC_SOURCES
   c/dec/huffman_table.cc
   c/dec/jpeg_data_writer.cc
   c/dec/state.cc
+        c/dec/decoder.cc
 )
 
 # TODO(eustas): split public/private headers.
@@ -40,6 +41,7 @@ set(BRUNSLI_ENC_SOURCES
   c/enc/jpeg_data_reader.cc
   c/enc/jpeg_huffman_decode.cc
   c/enc/write_bits.cc
+        c/enc/encoder.cc
 )
 
 # TODO(eustas): split public/private headers.
